@@ -1,0 +1,189 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.site-title {
+    display: block;
+    float: left;
+    color: bisque;
+    width: 200px;
+    font-size: 32px;
+
+}
+
+.site-header {
+    padding: 10px;
+    background: black;
+    height: 40px;
+    min-width: 480px;
+}
+
+.site-content {
+    max-width: 800px;
+    min-width: 480px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu > li {
+    float: left;
+    display: block;
+    width: 150px;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: white;
+}
+.menu > li > a:hover {
+    background-color: white;
+    color: black;
+}
+
+.user-management > li {
+    list-style: none;
+    float: right;
+    display: block;
+    width: 100px;
+}
+
+.user-management > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.badge {
+    color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin-right: 10px;
+    background-color: coral;
+}
+
+.product-container {
+    margin: 20px;
+}
+
+.product-content-detail {
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.product-content-list {
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.product-title {
+
+}
+
+ul.product-list {
+    background-color: gainsboro;
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+    margin-right: 0;
+    margin-left: auto;
+
+}
+
+ul.product-list > li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul.product-list > li:last-child {
+    margin-bottom: 10px;
+}
+
+ul.product-list > li:first-child {
+    margin-top: 10px;
+}
+
+ul.product-list > li > img {
+    width: 120px;
+    height: 110px;
+}
+
+.product-detail-img {
+    width: 500px;
+    height: 500px;
+}
+
+.clear {
+    clear: both;
+}
+
+.product-detail {
+
+    background-color: gainsboro;
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+}
+
+.product-detail > p {
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.product-action {
+    margin: 20px 0;
+}
+
+a.back-list {
+    color: saddlebrown;
+}
+
+a.back-list::before {
+    content: '<';
+}
+
+.price {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button-buy {
+    background-color: chocolate;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-buy:hover {
+    background-color: saddlebrown;
+}
+
+.action-area {
+    float: right;
+}
+
+footer {
+    margin-top: 80px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+footer > .copyright{
+    position: relative;
+    top: 25%;
+    text-align: center;
+ }
